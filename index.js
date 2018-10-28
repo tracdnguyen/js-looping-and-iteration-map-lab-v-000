@@ -12,5 +12,5 @@ function nameToAttributes(name) {
     return newArr.push(attr === name)
   })
 
-  newArr
+  return newArr
 }
