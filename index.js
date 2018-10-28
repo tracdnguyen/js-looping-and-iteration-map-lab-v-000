@@ -13,3 +13,7 @@ function nameToAttributes(drivers) {
     return { firstName: firstDriver, lastName: lastDriver};
   });
 }
+
+function attributesToPhrase() {
+  
+}
