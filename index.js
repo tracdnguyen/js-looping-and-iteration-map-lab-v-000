@@ -4,3 +4,9 @@ function lowerCaseDrivers(string) {
     return driver.toLowerCase();
   });
 }
+
+function nameToAttributes(name) {
+  return name.map(function(attr) {
+    return attr === name
+  })
+}
