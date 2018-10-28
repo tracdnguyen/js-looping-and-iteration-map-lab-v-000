@@ -5,12 +5,11 @@ function lowerCaseDrivers(string) {
   });
 }
 
-function nameToAttributes(name) {
-  const newArr = []
+function nameToAttributes(drivers) {
+  return drivers.map(function(names) {
+    const firstName = names.split(' ')[0]
+    const lastName = names.split(' ')[1]
 
-  return name.map(function(attr) {
-    return newArr.push(attr === name)
+    
   })
-
-  return newArr
 }
