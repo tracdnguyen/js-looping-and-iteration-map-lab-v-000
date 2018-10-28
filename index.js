@@ -7,8 +7,10 @@ function lowerCaseDrivers(string) {
 
 function nameToAttributes(name) {
   const newArr = []
-  
+
   return name.map(function(attr) {
-    return newArr.push(attr === name) 
+    return newArr.push(attr === name)
   })
+
+  newArr
 }
